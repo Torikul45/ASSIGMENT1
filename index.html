@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <nav>
+      <!-- left side -->
+      <div>
+        <img src="image/logo.png" alt="" />
+      </div>
+      <!-- center -->
+      <div>
+        <ul>
+          <li><a href="">Speakers</a></li>
+          <li><a href="">Schedule</a></li>
+          <li><a href="">Tracks</a></li>
+          <li><a href="">Venue</a></li>
+          <li><a href="">Blog</a></li>
+        </ul>
+      </div>
+      <button class="register">Register Now</button>
+    </nav>
+
+    <!-- header -->
+    <header>
+      <div class="header-content">
+        <h1>Code. Connect. Create</h1>
+        <p>
+          Join 4,000+ engineers, founders, and builders at the premier developer
+          conference of 2026. Three days of cutting-edge talks,
+          hands-onworkshops, and meaningful connections.
+        </p>
+        <button class="btn">Register Now</button>
+      </div>
+    </header>
+    <main>
+      <h1 class="speker">Meet the Speakers</h1>
+      <section>
+        <!-- left side -->
+
+        <div class="gallary">
+          <div class="item">
+            <img src="image/andrej.png" alt="Andrej Karpathy" />
+            <p class="role">AI / ML</p>
+            <h4>Andrej Karpathy</h4>
+            <p class="location">Pretraining team, Anthropic</p>
+          </div>
+          <div class="item">
+            <img src="image/demis.png" alt="Demis Hassabis" />
+            <p class="role">Cloud & DevOps</p>
+            <h4>Demis Hassabis</h4>
+            <p class="location">Co-Founder and CEO, Google DeepMind</p>
+          </div>
+          <div class="item">
+            <img src="image/gary.png" alt="Gary Marcus" />
+            <p class="role">Frontend</p>
+            <h4>Gary Marcus</h4>
+            <p class="location">Staff Engineer, Vercel</p>
+          </div>
+          <div class="item">
+            <img src="image/mustafa.png" alt="Mustafa Suleyman" />
+            <p class="role">Security</p>
+            <h4>Mustafa Suleyman</h4>
+            <p class="location">CEO of Microsoft AI</p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <section class="card-container">
+      <div class="card-container-header">
+        <h1>Secure Your Spot</h1>
+        <p>Early-bird pricing ends August 15, 2026.</p>
+      </div>
+      <div class="card-parent-container">
+        <div class="pricing-card pricing-card-1">
+          <h3>Standard</h3>
+          <h2>$399</h2>
+          <p>per person</p>
+          <hr />
+          <ul>
+            <li>Access to all 3 conference days</li>
+            <li>48 curated technical talks</li>
+            <li>2 workshop sessions</li>
+            <li>Networking lunch & coffee breaks</li>
+            <li>Conference swag bag</li>
+            <li>Digital recordings (30 days)</li>
+          </ul>
+          <button>Get Standard</button>
+        </div>
+        <div class="pricing-card pricing-card-2">
+          <h3>Pro</h3>
+          <h2>$749</h2>
+          <p>per person</p>
+          <hr />
+          <ul>
+            <li>Everything in Standard</li>
+            <li>Unlimited workshop access</li>
+            <li>Speaker meet & greet</li>
+            <li>VIP networking dinner</li>
+            <li>Lifetime recording access</li>
+            <li>1-on-1 mentorship (30 min)</li>
+          </ul>
+          <button class="pricing-card-btn2">Get Pro</button>
+        </div>
+        <div class="pricing-card pricing-card-3">
+          <h3>Team</h3>
+          <h2>$5,999</h2>
+          <p>up to 10 people</p>
+          <hr />
+          <ul>
+            <li>Everything in Pro (10 seats)</li>
+            <li>Dedicated team lounge access</li>
+            <li>Private workshop booking</li>
+            <li>Company logo on event page</li>
+            <li>Recruitment booth (1 day)</li>
+            <li>Priority customer support</li>
+          </ul>
+          <button>Contact Us</button>
+        </div>
+      </div>
+    </section>
+    <!-- section card end -->
+    <!-- left side welcome text -->
+   
+    <!-- Registration -->
+    <section class="registration-section">
+      <div class="welcome-text">
+      <h1>Welcome to DevCon 2026</h1>
+      <p>
+        DevCon 2026 is the ultimate gathering for developers, engineers, and
+        tech enthusiasts. Join us for three days of insightful talks, hands-on
+        workshops, and unparalleled networking opportunities. Whether you're a
+        seasoned professional or just starting your coding journey, DevCon 2026
+        has something for everyone.
+      </p>
+    </div>
+      <div>
+         <h2>Registration Form</h2>
+        <div class="registration-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Enter your name" />
+        <br />
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Enter your email" />
+        <br />
+        <label for="password">Password:</label>
+        <input
+          type="password"
+          id="Password"
+          placeholder="Enter your password">
+      </div>
+        <br>
+        <label for="gender">Gender:</label>
+        <select id="gender">
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="other">Other</option>
+        </select>
+        <br />
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" />
+        <br />
+        <label for="Phone">Phone Number:</label>
+        <input type="tel" id="Phone" placeholder="Enter your phone number" />
+        <br />
+        <input type="submit" value="Submit" />
+        <br />
+        <input type="checkbox" id="terms" />
+        <label for="terms">I agree to the terms and conditions</label>
+      </div>
+    </section>
+  </body>
+</html>
