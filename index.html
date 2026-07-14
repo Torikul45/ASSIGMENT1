@@ -3,24 +3,24 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>DevConfo2026</title>
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <nav>
       <!-- left side -->
       <div>
-        <img src="image/logo.png" alt="" />
+        <img src="./image/logo.png" alt="" />
       </div>
       <!-- center -->
       <div>
-        <ul>
+        <ol>
           <li><a href="">Speakers</a></li>
           <li><a href="">Schedule</a></li>
           <li><a href="">Tracks</a></li>
           <li><a href="">Venue</a></li>
           <li><a href="">Blog</a></li>
-        </ul>
+        </ol>
       </div>
       <button class="register">Register Now</button>
     </nav>
@@ -34,7 +34,7 @@
           conference of 2026. Three days of cutting-edge talks,
           hands-onworkshops, and meaningful connections.
         </p>
-        <button class="btn">Register Now</button>
+        <button class="button">Register Now</button>
       </div>
     </header>
     <main>
@@ -44,25 +44,25 @@
 
         <div class="gallary">
           <div class="item">
-            <img src="image/andrej.png" alt="Andrej Karpathy" />
+            <img src="./image/andrej.png" alt="Andrej Karpathy" />
             <p class="role">AI / ML</p>
             <h4>Andrej Karpathy</h4>
             <p class="location">Pretraining team, Anthropic</p>
           </div>
           <div class="item">
-            <img src="image/demis.png" alt="Demis Hassabis" />
+            <img src="./image/demis.png" alt="Demis Hassabis" />
             <p class="role">Cloud & DevOps</p>
             <h4>Demis Hassabis</h4>
             <p class="location">Co-Founder and CEO, Google DeepMind</p>
           </div>
           <div class="item">
-            <img src="image/gary.png" alt="Gary Marcus" />
+            <img src="./image/gary.png" alt="Gary Marcus" />
             <p class="role">Frontend</p>
             <h4>Gary Marcus</h4>
             <p class="location">Staff Engineer, Vercel</p>
           </div>
           <div class="item">
-            <img src="image/mustafa.png" alt="Mustafa Suleyman" />
+            <img src="./image/mustafa.png" alt="Mustafa Suleyman" />
             <p class="role">Security</p>
             <h4>Mustafa Suleyman</h4>
             <p class="location">CEO of Microsoft AI</p>
@@ -89,7 +89,7 @@
             <li>Conference swag bag</li>
             <li>Digital recordings (30 days)</li>
           </ul>
-          <button>Get Standard</button>
+          <button class="pricing-card-btn1">Get Standard</button>
         </div>
         <div class="pricing-card pricing-card-2">
           <h3>Pro</h3>
@@ -119,7 +119,7 @@
             <li>Recruitment booth (1 day)</li>
             <li>Priority customer support</li>
           </ul>
-          <button>Contact Us</button>
+          <button class="pricing-card-btn3">Contact Us</button>
         </div>
       </div>
     </section>
@@ -138,40 +138,38 @@
         has something for everyone.
       </p>
     </div>
-      <div>
-         <h2>Registration Form</h2>
-        <div class="registration-form">
-        <label for="name">Name:</label>
-        <input type="text" id="name" placeholder="Enter your name" />
-        <br />
-        <label for="email">Email:</label>
-        <input type="email" id="email" placeholder="Enter your email" />
-        <br />
-        <label for="password">Password:</label>
-        <input
-          type="password"
-          id="Password"
-          placeholder="Enter your password">
-      </div>
-        <br>
-        <label for="gender">Gender:</label>
-        <select id="gender">
-          <option value="male">Male</option>
-          <option value="female">Female</option>
-          <option value="other">Other</option>
-        </select>
-        <br />
-        <label for="dob">Date of Birth:</label>
-        <input type="date" id="dob" />
-        <br />
-        <label for="Phone">Phone Number:</label>
-        <input type="tel" id="Phone" placeholder="Enter your phone number" />
-        <br />
-        <input type="submit" value="Submit" />
-        <br />
-        <input type="checkbox" id="terms" />
-        <label for="terms">I agree to the terms and conditions</label>
-      </div>
+     <div class="container">
+
+    <div class="/.login-box">
+
+        <h1> Login Your Accaount</h1>
+
+        <form>
+
+            <label>Your Email</label>
+
+            <div class="input-box">
+                <input type="email" placeholder="Enter Your Email">
+                <i class="fa-solid fa-lock"></i>
+            </div>
+
+            <label>Password</label>
+
+            <div class="input-box">
+                <input type="password" placeholder="Enter Your Password">
+            </div>
+
+            <p class="forgot"> Forgot your password </p>
+
+            <button>Sign In</button>
+        </form>
+    </div>
     </section>
+    <!-- footer section -->
+     <div class="footer">
+      <h5 class="fh">© 2026 DevConf. All rights reserved.</h5>
+      <p>Privacy Policy</p>
+      <p>Terms of Service</p>
+     </div>
   </body>
 </html>

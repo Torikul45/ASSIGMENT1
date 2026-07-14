@@ -1,17 +1,15 @@
-/* * {
-  background-color: #ffffff;
-} */
+
 nav {
   background-color: #ffffff;
   display: flex;
   justify-content: space-between;
   width: 100%;
-  margin: 0;
-  padding: 18px 8%;
+  margin: auto;
   box-sizing: border-box;
 }
-ul {
+ol {
   display: flex;
+  justify-content: space-between;
   list-style: none;
   justify-content: center;
   gap: 70px;
@@ -23,6 +21,7 @@ a {
 .register {
   height: 50px;
   width: 150px;
+  justify-content: space-between;
   background-color: #1d4ed8;
   color: white;
   border-radius: 8px;
@@ -56,7 +55,7 @@ header {
     max-width: 500px;
     margin: auto;
 }
-.btn{
+.button{
     height: 50px;
     width: 150px;
     margin-left: 35%;
@@ -116,7 +115,6 @@ text-align: center;
   gap:24px;
 }
     .pricing-card {
-    display: flex;
     width:300px;
     padding: 30px ;
     border:1px solid #e5e7eb;
@@ -127,8 +125,8 @@ text-align: center;
     .pricing-card h3,h2,{
       text-align: left;
     }
-    
-    .pricing-card ul{
+     .pricing-card ul {
+      text-align: ;
       padding-left: 20px;
       margin: 20px 0;
     }
@@ -138,10 +136,20 @@ text-align: center;
       text-align: left;
       line-height: 1.5;
     }
-    .pricing-card button{
+    .pricing-card-btn1{
       width: 100%;
       padding: 12px;
-      background-color: #1d4ed8;
+      background-color:;
+      color: #1d4ed8;
+      border-radius: 15px;
+      cursor: pointer;
+      margin-top: auto;
+      border: none;
+    }
+    .pricing-card-btn2{
+       width: 100%;
+      padding: 12px;
+      background-color:#1d4ed8;;
       color: white;
       border-radius: 15px;
       cursor: pointer;
@@ -149,35 +157,78 @@ text-align: center;
       border: none;
 
     }
-  .pricing-card-2 {
-    background-color:#0D1B2A;
-    color: white;
-  }
+    .pricing-card-btn3{
+      width: 100%;
+      padding: 12px;
+      background-color:#ced1d4;
+      color: #1d4ed8;
+      border-radius: 15px;
+      cursor: pointer;
+      margin-top: auto;
+      border: none; 
+    }
 
-.welcome-text h1{
-  display: flex;
-  text-align: left;
-  margin: 16px 0;
-  padding: 15px 0
-}
-.welcome-text p{
-  text-color: white;
-  display: flex;
-  max-width: 400px;
-  text-align:left;
-  margin: 48px 0;
+    .pricing-card-2 {
+     background-color:#0D1B2A;
+     color: white;
+    }
+
+   .welcome-text h1{
+    display: flex;
+   text-align: left;
+   margin: 16px 0;
+   padding: 15px 0
+  }
+ .welcome-text p{
+    display: flex;
+   max-width: 400px;
+   text-align:left;
+    margin: 16px 0;
 }
 .registration-section{
   display: flex;
   justify-content: center;
   gap: 80px;
-  margin: 48px 0;
-  width: 100%;
   border-radius: 16px;
-  background-color: #797373;
-  padding: 30px 0;
+  background-color: #835757;
 }
 .registration-form{
   text-align: left;
   button-shadow: none;
+}
+.input-box{
+    position:relative;
+    margin;
+}
+
+.input-box input{
+    width:100%;
+    padding:10px;
+    border:none;
+    border-radius:8px;
+}
+.forgot{
+    color:black;
+    margin-bottom:30px;
+}
+
+button{ height: 50px;
+  width: 150px;
+  justify-content: center;
+    display:block;
+    margin:16px 0;
+    border:none;
+    border-radius:10px;
+    color:#835656;
+    font-size:15px;
+    cursor:pointer;
+}
+.footer{
+  background-color: #0D1B2A;
+  margin: 30px 0%;
+  padding: 15px 8%;
+  color: rgb(160, 158, 158);
+  display:flex;
+  justify-content: space-between;
+ 
 }
